@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana;
+}
+h1{
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.download{
+  display: block;
+  color: aquamarine;
+  font-size: 16px;
+
+}
+
+h2{
+  font-size: 42px;
+  font-weight: 300;
+}
+
+span{
+  font-size: 21px;
+  color: gray;
+}
+
+#logo{
+  display: block;
+  text-align:right;
+  margin-top: 1em;
+}
+
+img{
+  display:block;
+  margin: auto;
+  margin-top: 2em;
+}
+@media only screen and (max-width:800px){
+  .camp-img{
+    width: 500px;
+    height: auto;
+  }
+}
