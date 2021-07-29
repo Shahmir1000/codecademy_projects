@@ -1,0 +1,59 @@
+body{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  /* padding: 0 10%; */
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: Gowun Batang;
+  margin: 0;
+
+}
+.header{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+h1{
+  text-align: center;
+}
+section{
+  margin: 20px 10%;
+  padding: 20px;
+}
+
+.guide{
+  border: 2px solid #C6F8FF;
+  padding-left: 20px;
+  color: white;
+}
+.guide a{
+  color: #99effa;
+}
+
+.practice{
+  border: 2px solid #F1962E;
+  padding-left: 20px;
+  color: white;
+}
+.practice a{
+  color: #F1962E;
+}
+
+.projects{
+  border: 2px solid #FFEACD;
+  padding-left: 20px;
+  color: white;
+}
+.projects a{
+  color: #ffd8a1;
+}
+
+.color h2{
+  text-align: center;
+}
+
+.gradient{
+}
