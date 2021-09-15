@@ -33,7 +33,7 @@ class Field {
     return this._fieldArray[position.y][position.x];
   }
   moved(direction){
-    direction = direction.toLowerCase();
+    direction = direction.toLowerCase();localStorage
     this.currentPosition = this.characterPosition;
     switch(direction){
       case "w":
